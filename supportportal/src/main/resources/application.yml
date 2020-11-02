@@ -1,6 +1,10 @@
 #spring.datasource.url=jdbc:mysql://localhost:3306/supportportal?useSSL=false&serverTimezone=UTC
 #spring.datasource.username=hbstudent
 #spring.datasource.password=hbstudent
+jwt:
+  secret: '[a-zA-Z0-9._]^+$Guidelines89797987forAlphabeticalArraNumeralsandOtherSymbo$'
+
+
 
 server:
   port: 8081
